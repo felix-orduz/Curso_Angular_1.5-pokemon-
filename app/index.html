@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es-CO" data-ng-app="pokemon">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <meta name="description" content="">
+    <!-- build:css css/style.min.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- endbuild -->
+    </head>
+  	<body>
+    <div ui-view>
+    </div>
+    <!-- build:js js/vendor.min.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+    <!-- inject:js -->
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/config.router.js"></script>
+    <script src="/assets/js/controllers/PokedexController.js"></script>
+    <script src="/assets/js/services/Pokemon.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+  </body>
+</html>
